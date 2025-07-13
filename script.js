@@ -434,3 +434,9 @@ if (backToTopButton) {
             });           
 
         });
+
+fetch("https://github.com/melodamore/Kidusophy/blob/main/hero.html")
+  .then(res => res.text())
+  .then(html => {
+    document.getElementById("external-html").innerHTML = html;
+});
