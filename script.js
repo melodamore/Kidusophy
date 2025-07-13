@@ -1,7 +1,4 @@
-
-    <script type='text/javascript'>
-    //<![CDATA[
-        document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
             const isDesktop = window.matchMedia("(min-width: 901px)").matches;
             
             // Mark body as loaded
@@ -434,12 +431,6 @@ if (backToTopButton) {
                     card.style.setProperty('--mouse-x', `${x}px`);
                     card.style.setProperty('--mouse-y', `${y}px`);
                 });
-            });
-            
-        
-            
+            });           
 
         });
-
-    //]]>
-    </script>
